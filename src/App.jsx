@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import ControlPanel from "./components/ControlPanel";
-import Countdown from "./components/Countdown";
+import Countdown from "./components/CountDown";
 
 const App = () => {
   const mediaRecorderRef = useRef(null);
